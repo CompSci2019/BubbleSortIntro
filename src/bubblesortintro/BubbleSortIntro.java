@@ -13,9 +13,9 @@ import static java.lang.System.currentTimeMillis;
 public class BubbleSortIntro {
     
   public static void main(String[] args) {
-      int elements= 100000;
+      int elements= 10000;
       int nums[] = new int[elements];
-     //= {22, 30, 15, 1, 7, 87, 65, 24, 22, 0}
+     //int nums[] = {22, 30, 15, 1, 7, 87, 65, 24, 22, 0};
     for (int i=0; i<elements; i++){
         nums[i]=(int)(Math.random()*101);
     }
